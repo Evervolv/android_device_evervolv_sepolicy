@@ -2,6 +2,7 @@ type backuptool, domain, coredomain;
 
 neverallow {
     domain
+    -recovery
     -update_engine
 } backuptool:process transition;
 
