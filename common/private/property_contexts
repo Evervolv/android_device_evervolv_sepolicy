@@ -29,3 +29,6 @@ ro.build.version.real_security_patch   u:object_r:build_prop:s0 exact string
 
 # xtra-daemon control
 persist.sys.xtra-daemon.enabled        u:object_r:xtra_control_prop:s0 exact bool
+
+# WiFi
+wifi.interface.                        u:object_r:wifi_hal_prop:s0 prefix string
