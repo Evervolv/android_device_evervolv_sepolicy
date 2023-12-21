@@ -36,7 +36,10 @@ BOARD_SEPOLICY_M4DEFS += \
     qti_init_shell=vendor_qti_init_shell \
     qti_init_shell_exec=vendor_qti_init_shell_exec \
     sysfs_battery_supply=vendor_sysfs_battery_supply \
+    sysfs_devfreq=vendor_sysfs_devfreq \
     sysfs_graphics=vendor_sysfs_graphics \
+    sysfs_kgsl=vendor_sysfs_kgsl \
+    sysfs_scsi_host=vendor_sysfs_scsi_host \
     sysfs_socinfo_sensitive=vendor_sysfs_soc_sensitive \
     sysfs_usb_supply=vendor_sysfs_usb_supply
 else
