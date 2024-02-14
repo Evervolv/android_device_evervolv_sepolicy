@@ -1,1 +1,2 @@
+type proc_irq_affinity, fs_type, proc_type;
 type sysfs_socinfo_sensitive, fs_type, sysfs_type;
