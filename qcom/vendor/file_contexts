@@ -3,7 +3,7 @@
 
 # Init
 /proc/irq/[\d]+/(.*)/smp_affinity                        u:object_r:proc_irq_affinity:s0
-/(vendor|system/vendor)/bin/init\.qcom\.irq_affinity\.sh u:object_r:vendor_qti_init_shell_exec:s0
+/(vendor|system/vendor)/bin/init\.qcom\.irq_affinity\.sh u:object_r:vendor_init-qcom-irq_affinity-sh_exec:s0
 
 # LiveDisplay HAL
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-legacymm u:object_r:hal_evervolv_livedisplay_qti_exec:s0
