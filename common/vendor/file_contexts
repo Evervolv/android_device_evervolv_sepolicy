@@ -5,6 +5,9 @@
 /(vendor|system/vendor)/bin/hw/android\.hardware\.health-service\.batteryless u:object_r:hal_health_default_exec:s0
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.health-service\.default u:object_r:hal_lineage_health_default_exec:s0
 
+# Light HAL
+/(vendor|system/vendor)/bin/hw/android\.hardware\.light-service\.lineage u:object_r:hal_light_default_exec:s0
+
 # LiveDisplay HAL
 /(vendor|system/vendor)/bin/hw/vendor\.lineage\.livedisplay@2\.0-service-sysfs    u:object_r:hal_evervolv_livedisplay_sysfs_exec:s0
 
