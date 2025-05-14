@@ -1,8 +1,8 @@
 # Allow access to the HALs
-hal_client_domain(system_app, hal_evervolv_fastcharge)
-hal_client_domain(system_app, hal_evervolv_livedisplay)
-hal_client_domain(system_app, hal_evervolv_touch)
+hal_client_domain(system_app, hal_lineage_fastcharge)
+hal_client_domain(system_app, hal_lineage_livedisplay)
 hal_client_domain(system_app, hal_lineage_powershare)
+hal_client_domain(system_app, hal_lineage_touch)
 
 # Allow Settings/LineageParts to read custom version
 get_prop(system_app, custom_version_prop)
