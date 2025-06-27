@@ -1,5 +1,4 @@
 # Allow access to the HALs
-hal_client_domain(system_app, hal_lineage_fastcharge)
 hal_client_domain(system_app, hal_lineage_livedisplay)
 hal_client_domain(system_app, hal_lineage_powershare)
 hal_client_domain(system_app, hal_lineage_touch)

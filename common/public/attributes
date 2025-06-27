@@ -1,6 +1,5 @@
 # HALs
 hal_attribute_evervolv(lineage_touch)
-hal_attribute_evervolv(lineage_fastcharge)
 hal_attribute_evervolv(lineage_health)
 hal_attribute_evervolv(lineage_livedisplay)
 hal_attribute_evervolv(lineage_powershare)
